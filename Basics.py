@@ -4,7 +4,7 @@ f = open('basics.txt', 'w')
 f.write("First line I wrote into the file\n")
 f.write("This is second line\nThis is third line\n")
 f.write('\n\n\n')
-f.write("More datas\nhere\nand here")
+f.write("More datas\nhere\nand here\n")
 f.close()
 
 
@@ -17,7 +17,6 @@ def read_file1(file):
             pass
         else:
             print(i[:-1])
-
     x.close()
 
 
@@ -29,13 +28,14 @@ def read_file2(file):
             pass
         else:
             print(i[:-1])
+    x.close()
 
 
 def read_file3(file):
     x = open(file, 'r')
     more_lines = x.read()
     print(more_lines)
-
+    x.close()
 
 # Print the result of your methods.
 print("\n#1\n")
@@ -44,3 +44,5 @@ print("\n#2\n")
 read_file2('basics.txt')
 print("\n#3\n")
 read_file3('basics.txt')
+
+# http://pastebin.com/XRiUFWpM
