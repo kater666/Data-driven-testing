@@ -1,0 +1,1 @@
+#odczytaj błąd i numer kolumny
