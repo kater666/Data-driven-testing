@@ -13,8 +13,8 @@ def read_column_number(file):
         print(list)
         if list[1] == 'Error:':
             z = list[2:]
-            #print("Column %s Error type: %s" % (list[0], ' '.join(z)))
-            print("Time: %s" % list[i+1][1])
+            print("Line %s Error type: %s" % (list[0], ' '.join(z)))
+            print("Time: %s" % list[1]) # daj mnie dane z następnej iteracji
     f.close()
 
 
