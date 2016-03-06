@@ -1,9 +1,9 @@
 1 Report title
 2 Description
-3 Error: Null
-4 12:23
-5 Error: Null
-6 23:43
+3 Error: Null 12:23
+4 
+5 Error: Null 23:43
+6 
 7 
-8 Error: Missing file
-9 45:12
+8 Error: Missing file 45:12
+9 
