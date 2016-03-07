@@ -5,7 +5,7 @@ def read_column_number(file):
     f = open(file, 'r')
     lines = f.readlines()
     new_list = []
-    
+
     for i in lines:
         new_list.append(i[:-1])
 
