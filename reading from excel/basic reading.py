@@ -24,6 +24,7 @@ def print_rows_values(cols):
     for col in range(0, cols):
         print(sheet.cell_value(1, col))
 
+
 # Below method will work only if date of birth is a string / excel text date?
 # Shortly it needs date in string format dd/mm/yy
 def print_person_data():
