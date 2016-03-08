@@ -5,11 +5,11 @@ from ddt import ddt, data
 @ddt
 class MyTestCase(unittest.TestCase):
 
-    @data(3, 4, 10)
+    @data(3, 4, 10, 2.01)
     def test_larger_than_two(self, number):
         self.assertTrue(nestedmodule.larger_than_two(number))
 
-    @data(2, 1, 0, -1)
+    @data(2, 1, 0, -1, 1.99, 0.99)
     def test_not_larger_than_two(self, number):
         self.assertFalse(nestedmodule.larger_than_two(number))
 
